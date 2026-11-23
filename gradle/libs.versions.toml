@@ -1,0 +1,9 @@
+[versions]
+agp = "9.5.1"
+dadb = "2.0.0"
+
+[libraries]
+dadb = { group = "dev.mobile", name = "dadb", version.ref = "dadb" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
